@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen (max-width: 768px) {
     .header__menu {
         display: none !important;
     }
@@ -28,7 +28,7 @@
     }
 }
 
-@media screen and (max-width: 488px) {
+@media screen (max-width: 488px) {
     .container {
         width: 90% !important;
     }
