@@ -1,76 +1,76 @@
-@media screen (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .header__menu {
-        display: none !important;
+        display: none ;
     }
 
     .promo__info {
-        width: 100% !important;
+        width: 100% ;
     }
 
     .promo__list {
-        margin: 50px 0 50px 0 !important;
+        margin: 50px 0 50px 0;
     }
 
     .category__items {
-        grid-template-columns: repeat(2, 6fr) !important;
+        grid-template-columns: repeat(2, 6fr) ;
     }
 
     .price__items {
-        grid-template-columns: repeat(2, 6fr) !important;
+        grid-template-columns: repeat(2, 6fr) ;
     }
 
     .questions__items {
-        flex-flow: column wrap !important;
+        flex-flow: column wrap ;
     }
 
     .questions__item {
-        max-width: 100% !important;
+        max-width: 100% ;
     }
 }
 
-@media screen (max-width: 488px) {
+@media only screen and (max-width: 480px) {
     .container {
-        width: 90% !important;
+        width: 90% ;
     }
 
     .title {
-        font-size: 32px !important;
-        line-height: 40px !important;
+        font-size: 32px ;
+        line-height: 40px ;
     }
 
     .category__items {
-        grid-template-columns: repeat(1, 12fr) !important;
+        grid-template-columns: repeat(1, 12fr) ;
     }
 
     .price__items {
-        grid-template-columns: repeat(1, 12fr) !important;
+        grid-template-columns: repeat(1, 12fr) ;
     }
 
     .price__item:hover {
-        transform: scale(1.05) !important;
+        transform: scale(1.05) ;
     }
 
     .questions__wrapper {
-        width: 95% !important;
+        width: 95% ;
     }
 
     .questions__subtitle {
-        margin-bottom: 4rem !important;
+        margin-bottom: 4rem ;
     }
 
     .questions__item::before {
-        width: 30px !important;
-        height: 30px !important;
-        top: -40px !important;
-        left: 50% !important;
-        transform: translate(-50%, 0) !important;
+        width: 30px ;
+        height: 30px ;
+        top: -40px ;
+        left: 50% ;
+        transform: translate(-50%, 0) ;
     }
 
     .questions__item:not(:last-child) {
-        margin-bottom: 4rem !important;
+        margin-bottom: 4rem ;
     }
 
     .questions__name {
-        text-align: center !important;
+        text-align: center ;
     }
 }
