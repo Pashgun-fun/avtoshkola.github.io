@@ -1,76 +1,76 @@
 @media screen and (max-width: 768px) {
     .header__menu {
-        display: none;
+        display: none !important;
     }
 
     .promo__info {
-        width: 100%;
+        width: 100% !important;
     }
 
     .promo__list {
-        margin: 50px 0 50px 0;
+        margin: 50px 0 50px 0 !important;
     }
 
     .category__items {
-        grid-template-columns: repeat(2, 6fr);
+        grid-template-columns: repeat(2, 6fr) !important;
     }
 
     .price__items {
-        grid-template-columns: repeat(2, 6fr);
+        grid-template-columns: repeat(2, 6fr) !important;
     }
 
     .questions__items {
-        flex-flow: column wrap;
+        flex-flow: column wrap !important;
     }
 
     .questions__item {
-        max-width: 100%;
+        max-width: 100% !important;
     }
 }
 
 @media screen and (max-width: 488px) {
     .container {
-        width: 90%;
+        width: 90% !important;
     }
 
     .title {
-        font-size: 32px;
-        line-height: 40px;
+        font-size: 32px !important;
+        line-height: 40px !important;
     }
 
     .category__items {
-        grid-template-columns: repeat(1, 12fr);
+        grid-template-columns: repeat(1, 12fr) !important;
     }
 
     .price__items {
-        grid-template-columns: repeat(1, 12fr);
+        grid-template-columns: repeat(1, 12fr) !important;
     }
 
     .price__item:hover {
-        transform: scale(1.05);
+        transform: scale(1.05) !important;
     }
 
     .questions__wrapper {
-        width: 95%;
+        width: 95% !important;
     }
 
     .questions__subtitle {
-        margin-bottom: 4rem;
+        margin-bottom: 4rem !important;
     }
 
     .questions__item::before {
-        width: 30px;
-        height: 30px;
-        top: -40px;
-        left: 50%;
-        transform: translate(-50%, 0);
+        width: 30px !important;
+        height: 30px !important;
+        top: -40px !important;
+        left: 50% !important;
+        transform: translate(-50%, 0) !important;
     }
 
     .questions__item:not(:last-child) {
-        margin-bottom: 4rem;
+        margin-bottom: 4rem !important;
     }
 
     .questions__name {
-        text-align: center;
+        text-align: center !important;
     }
 }
