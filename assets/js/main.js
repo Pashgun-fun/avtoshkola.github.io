@@ -12,27 +12,37 @@ $(() => {
     })
 
     $('.category-item').on('click', function () {
+        $('.burger-menu').hide();
         $('html,body').animate({scrollTop: $('.category').offset().top - 150 + "px"}, {duration: 1E3});
     });
 
     $('.document-item').on('click', function () {
+        $('.burger-menu').hide();
         $('html,body').animate({scrollTop: $('.documents').offset().top - 150 + "px"}, {duration: 1E3});
     });
 
     $('.price-item').on('click', function () {
+        $('.burger-menu').hide();
         $('html,body').animate({scrollTop: $('.price').offset().top - 150 + "px"}, {duration: 1E3});
     });
 
     $('.ask-item').on('click', function () {
+        $('.burger-menu').hide();
         $('html,body').animate({scrollTop: $('.questions').offset().top - 150 + "px"}, {duration: 1E3});
     });
 
     $('.contact-item').on('click', function () {
+        $('.burger-menu').hide();
         $('html,body').animate({scrollTop: $('.map').offset().top - 150 + "px"}, {duration: 1E3});
     });
 
     $('.header__burger').on('click', (e) => {
         $('.burger-menu').show();
         $('body').css('overflowY', 'hidden')
+    })
+
+    $('.burger-menu__close').on('click', (e) => {
+        $('.burger-menu').hide();
+        $('body').css('overflowY', 'auto')
     })
 })
